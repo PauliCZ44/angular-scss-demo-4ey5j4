@@ -1,1 +1,21 @@
-Good morning, {{ username }}
+<main>
+  <div class="greetings-wrapper">
+    <span class="greetings"> Good morning, {{ username }} </span>
+    <app-button>+ Create reservation</app-button>
+  </div>
+
+  <!-- In real world we would probably loop over some data, get content for cards, and dispaly correct number here -->
+  <div class="info">
+    You have <strong>3 reservations </strong> planned today
+  </div>
+
+  <section class="reservation-wrapper">
+    <app-card name="Reservation" time="12:20" date="12.12.2020"></app-card>
+
+    <app-card name="Reservation" time="12:20" date="12.12.2020"></app-card>
+
+    <app-card name="Reservation" time="12:20" date="12.12.2020"></app-card>
+  </section>
+
+  <div class="divider"></div>
+</main>

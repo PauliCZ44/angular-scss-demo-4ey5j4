@@ -1,5 +1,32 @@
 /* Add application styles & imports to this file! */
 @import './styles/variables';
+@import './styles/normalize';
+
 // p {
 //   background-color: grey;
 // }
+
+* {
+  outline: 1px dashed rgba(255, 20, 145, 0.29);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p,
+span,
+div {
+  font-family: 'Nunito', sans-serif;
+}
+
+.divider {
+  background: var(--colors-background-divider, #d2cfd0);
+  height: 1px;
+  margin-inline: 12px;
+}

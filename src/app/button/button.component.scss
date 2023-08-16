@@ -1,0 +1,28 @@
+.btn {
+  transition: color 150ms ease, background 150ms ease;
+  border: none;
+  color: var(--colors-button-primary-text, #fff);
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  /* Desktop/Button */
+  font-family: Nunito;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  border-radius: var(--button-button-normal-radius, 16px);
+  background: linear-gradient(#2c5bcc, #3772ff);
+  padding: 1em;
+}
+
+.btn--link {
+  padding: 0.5em;
+  color: var(--colors-button-primary-link-text, #3772ff);
+  background: white;
+}
+
+.btn--link:hover {
+  color: var(--colors-button-primary-text, #fff);
+  background: linear-gradient(#2c5bcc, #3772ff);
+}

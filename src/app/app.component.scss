@@ -1,1 +1,32 @@
 @import '../styles/variables';
+
+.reservation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-grid-md);
+
+  & > * {
+    flex: 1;
+  }
+}
+
+.greetings {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+.greetings-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main {
+  padding: var(--spacing-safe-area-desktop, 36px);
+  display: grid;
+  gap: var(--spacing-grid-md);
+}
+
+hr {
+  
+}
