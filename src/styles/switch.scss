@@ -1,0 +1,25 @@
+.switch {
+  transition: opacity 75ms ease-in-out, background-color 75ms ease-in-out,
+    color 75ms ease-in-out;
+  border-radius: 999rem;
+  display: flex;
+  padding: var(--spacing-switch-item-padding);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.switch-wrapper {
+  display: flex;
+  gap: var(--spacing-grid-sm);
+}
+
+.switch--active {
+  color: var(--colors-tabs-active-text);
+  background-color: var(--colors-tabs-active-background);
+}
+
+.switch:not(.switch--active):hover {
+  background-color: var(--colors-tabs-active-background);
+  opacity: 0.75;
+}

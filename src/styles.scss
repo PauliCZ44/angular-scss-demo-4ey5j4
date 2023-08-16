@@ -1,14 +1,7 @@
 /* Add application styles & imports to this file! */
 @import './styles/variables';
 @import './styles/normalize';
-
-// p {
-//   background-color: grey;
-// }
-
-* {
-  outline: 1px dashed rgba(255, 20, 145, 0.29);
-}
+@import './styles/switch';
 
 h1,
 h2,
